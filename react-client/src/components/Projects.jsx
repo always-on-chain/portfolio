@@ -2,19 +2,17 @@ import React from 'react';
 
 const Projects = (props) => {
   return (
-    <div id="projects">
-      <div id="open-table">
-        <img src="images/open-table.png" className="project-img" /> 
-      </div>
-      <div id="article-manager">
-        <img src="images/article-manager.png" className="project-img" /> 
-      </div>
-      <div id="backend">
-        <img src="images/backend.png" className="project-img" /> 
-      </div>
-      <div id="blockchain">
-        <img src="images/blockchain.png" className="project-img" /> 
-      </div>
+    <div id="projects-container">
+      <h3 id="projects-header">Featured Projects</h3>
+      <div id="projects">
+        {props.projects.map((project) => {
+          return (
+          <div id={project.name} className="project-container">
+            <img src={project.image} className="project-image" />
+          </div>
+          )
+        })}
+    </div>
     </div>
   )
 }

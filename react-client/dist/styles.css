@@ -1,7 +1,7 @@
 
 header {
   height: 10%;
-  background-color: silver;
+  background-color: lightskyblue;
   display: flex;
   position: fixed;
 }
@@ -29,7 +29,7 @@ body, header {
   font-weight: normal;
 }
 
-#about, #contact, #resume, #projects {
+.header-tabs {
   margin-left: 15%;
 }
 
@@ -64,7 +64,34 @@ body, header {
   width: 100%;
 }
 
-.project-img {
-  height: 25%;
-  width: 25%;
+#projects-container {
+  display: flex;
 }
+
+#projects-header {
+  margin-left: %;
+  width: 90%;
+}
+
+#projects {
+  display: flex;
+  margin-top: 1%;
+  flex-wrap: wrap;
+}
+
+.project-container {
+  width: 30%;
+  padding: 1%;
+  margin-left: 2%;
+}
+
+#blockchain, #article-manager {
+  margin-left: 10%;
+}
+
+.project-image {
+  height: 25%;
+  width: 100%;
+  display: inline-block;
+}
+
