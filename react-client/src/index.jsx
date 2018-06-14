@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Intro from './components/Intro.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,8 +11,9 @@ class App extends React.Component {
   }
 
   render() {
-    console.log('hi')
-    return <p>HI</p>
+    return (
+      <Intro />
+    )
   }
 }
 
