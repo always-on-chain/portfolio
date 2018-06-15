@@ -15,12 +15,14 @@ class App extends React.Component {
 
   generateProjectData() {
     let amountOfProjects = 4;
-    let names = ['open-table', 'article-manager', 'backend', 'blockchain'];
+    let names = ['OpenTable Proxy Server', 'Productivity App: Article-Manager', 'SeaBnB - Backend', 'Blockchain Events Aggregator']
+    let ids = ['open-table', 'article-manager', 'backend', 'blockchain'];
     let imagesURL = ['images/open-table.png', 'images/article-manager.png', 'images/backend.png', 'images/blockchain.png'];
     let project = {};
 
     for (let i = 1; i <= amountOfProjects; i++) {
-      project.name = names[i - 1];
+      project.name = names[i - 1]
+      project.ids = ids[i - 1];
       project.image = imagesURL[i - 1];
       this.state.projects.push(project);
       project = {};

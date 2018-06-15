@@ -9,6 +9,7 @@ const Projects = (props) => {
           return (
           <div id={project.name} className="project-container">
             <img src={project.image} className="project-image" />
+            <div id="project-name">{project.name}</div>
           </div>
           )
         })}
