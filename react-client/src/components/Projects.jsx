@@ -7,10 +7,10 @@ const Projects = (props) => {
       <div id="projects">
         {props.projects.map((project) => {
           return (
-          <div id={project.name} className="project-container">
-            <img src={project.image} className="project-image" />
-            <div id="project-name">{project.name}</div>
-          </div>
+            <div id={project.name} className="project-container">
+              <img src={project.image} className="project-image" />
+              <div id="project-name">{project.name}</div>
+            </div>
           )
         })}
     </div>

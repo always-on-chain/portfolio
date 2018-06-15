@@ -8,7 +8,7 @@
 
 # Layout
 - Sections include: About, Projects, Experience, Interests
-- About: a quick intro into who I am and what I specialize in
+- About: a quick intro into who I am and what I specialize in as a SWE
 - Projects: currently featuring my top 4 projects and plan to add others in the future
 - Experience: my past professional experience in Silicon Valley
 - Interests: a list of my favorite books and resources (podcasts, articles) that demonstrates interests in technology and a bit about my personal interests (basketball)

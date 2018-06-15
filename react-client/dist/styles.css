@@ -51,6 +51,10 @@ body, header {
 }
 
 #intro-statement-avatar {
+  margin-top: 8%;
+}
+
+#intro-statement-avatar {
   display: flex;
 }
 
@@ -61,7 +65,7 @@ body, header {
 
 #intro-email {
   font-size: 150%;
-  margin-top: 20%;
+  margin-top: 10%;
   width: 100%;
 }
 
@@ -108,5 +112,10 @@ body, header {
   font-weight: 400;
   text-align: center;
   margin-top: 3%;
+}
+
+.company-logo {
+  height: 8%;
+  width: 8%;
 }
 
