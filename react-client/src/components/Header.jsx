@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <a href="#intro" id="link">
         <div id="home-button">
-          <img src="images/W.png" class="W" />ayne 
+          <img src="images/W.png" className="W" />ayne 
           {/* <img src="images/W.png" class="W" />est */}
         </div>
       </a>
