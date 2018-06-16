@@ -28,18 +28,12 @@ generateExperienceData = () => {
   let location = ['San Francisco', 'Palo Alto'];
   let title = ['Marketing Manager - Founding Team Member', 'Marketing and Product Manager - Employee #2'];
   let productDescription = [
-    'R3lish was a video as a service (VaaS), automating marketing video creation for businesses',
-    'At Wyz Kid Labs, we built a coding platform for kids and a suite of knowledge products made from its coding platform'
+    'A video as a service (VaaS) tool, automating marketing video creation for businesses',
+    'A coding platform for kids and a suite of knowledge products made from the proprietary language of the platform'
   ];
   let results = [
-    [
-      '● Validated product architecture with a working proof-of-concept that generated $30,000 in initial company revenue',
-      '● Achieved 90% reduction in costs of videos (from $5000 to $500) and 3-10x increased engagement on FB for early adopters using our MVP'
-    ],
-    [
-      '● Built a team of 5 to conceptualize, research, and develop 60 apps to boost App Store optimization in less than a year',
-      '● Established a differentiated product position that appeared as foundational company and product messaging in all growth channels (social media, landing pages, search ads, blogs)'
-    ]
+    'Validated product architecture with a working proof-of-concept that generated $30,000 in initial company revenue',
+    'Built a team of 5 to conceptualize, research, and develop 60 apps to boost App Store optimization in less than a year',
   ];
 
   for (let i = 0; i < amountOfExperience; i++) {
@@ -50,7 +44,7 @@ generateExperienceData = () => {
         company: companies[i],
         location: location[i],
         title: title[i],
-        productDesctiption: productDescription[i],
+        productDescription: productDescription[i],
         results: results[i]
       }
     )

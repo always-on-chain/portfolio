@@ -160,6 +160,14 @@ body, header {
   font-weight: 400;
 }
 
-.location {
+.location, .product-description {
   margin-bottom: 2%;
+}
+
+.description-headers {
+  font-weight: bold;
+}
+
+.job-content {
+  padding-right: 10%;
 }

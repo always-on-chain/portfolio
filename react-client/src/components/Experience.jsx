@@ -6,6 +6,7 @@ const Experience = (props) => {
       <h3 className="section-headers">Experience</h3>
       <div id="jobs" className="section">
         {props.experience.map((job) => {
+          console.log('PD',job)
           return (
             <div className="job-container">
               <div className="logo-container">
@@ -16,10 +17,12 @@ const Experience = (props) => {
                   <div className="light-weight">
                     <div className="date">{job.date}</div>
                     <div className="location">{job.location}</div>
-                    <div className="product-description">{job.productDescription}</div>
-                    {job.results.map((bulletPoint) => {
-                      return <div className="results">{bulletPoint}</div>;
-                    })}
+                    <div className="job-content">
+                      <div className="description-headers">What we built:</div>
+                      <div className="product-description">{job.productDescription}</div>
+                      <div className="description-headers">Greatest Achievement:</div>
+                      <div className="results">{job.results}</div>
+                    </div>
                   </div>
                 </div>
               </div>
