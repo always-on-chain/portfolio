@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = (props) => {
   return (
-    <div id="projects-container">
-      <h3 id="projects-header">Featured Projects</h3>
+    <div id="projects-container" className="section-container">
+      <h3 className="section-headers" id="projects-header">Featured Projects</h3>
       <div id="projects">
         {props.projects.map((project) => {
           return (

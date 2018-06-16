@@ -69,15 +69,19 @@ body, header {
   width: 100%;
 }
 
-#projects-container {
+.section-container {
   display: flex;
+  margin-bottom: 10%;
+}
+
+.section-headers {
+  margin-left: 3%;
+  color: #00bfff;
+  text-shadow: 1px 1px navy;
 }
 
 #projects-header {
-  margin-left: 3%;
-  width: 90%;
-  color: #00bfff;
-  text-shadow: 1px 1px navy;
+  width: 80%;
 }
 
 #projects {
@@ -86,15 +90,27 @@ body, header {
   flex-wrap: wrap;
 }
 
+#jobs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project-container {
   width: 30%;
   padding: 2%;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-bottom: 3%;
   border-radius: 2%;
-  display: block;
   cursor: pointer;
   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.job-container {
+  padding: 2%;
+  margin-left: 12%;
+  border-bottom: 1px solid lightgrey;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 #blockchain, #article-manager {
@@ -119,3 +135,31 @@ body, header {
   width: 8%;
 }
 
+.logo-container {
+  display: flex;
+}
+
+.company-logo {
+  margin-right: 2%;
+}
+
+.rest {
+  flex-wrap: wrap;
+}
+
+.job-title {
+  font-weight: 700;
+}
+
+.company {
+  font-weight: 500;
+}
+
+.light-weight {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.location {
+  margin-bottom: 2%;
+}

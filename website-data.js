@@ -26,8 +26,7 @@ generateExperienceData = () => {
   let dates = ['2013-2016', '2016-2018'];
   let companies = ['R3lish', 'Wyz Kid Labs'];
   let location = ['San Francisco', 'Palo Alto'];
-  let title = ['Marketing Manager', 'Marketing and Product Manager'];
-  let employeeNum = ['Found Team Member', 'Employee #2']
+  let title = ['Marketing Manager - Founding Team Member', 'Marketing and Product Manager - Employee #2'];
   let productDescription = [
     'R3lish was a video as a service (VaaS), automating marketing video creation for businesses',
     'At Wyz Kid Labs, we built a coding platform for kids and a suite of knowledge products made from its coding platform'
@@ -51,9 +50,8 @@ generateExperienceData = () => {
         company: companies[i],
         location: location[i],
         title: title[i],
-        employeeNum: employeeNum[i],
         productDesctiption: productDescription[i],
-        result: results[i]
+        results: results[i]
       }
     )
     job = {};
