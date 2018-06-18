@@ -6,7 +6,6 @@ const Experience = (props) => {
       <h3 className="section-headers">Experience</h3>
       <div id="jobs" className="section">
         {props.experience.map((job) => {
-          console.log('PD',job)
           return (
             <div className="job-container">
               <div className="logo-container">
