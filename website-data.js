@@ -9,7 +9,7 @@ const generateProjectData = () => {
 
   for (let i = 0; i < amountOfProjects; i++) {
     project.name = names[i]
-    project.ids = ids[i];
+    project.id = ids[i];
     project.image = imagesURL[i];
     projects.push(project);
     project = {};
@@ -62,13 +62,15 @@ const generateInterestsData = () => {
     basketball: []
   }
 
-  let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations' ]
-  let bookAuthors = ['Mitchell Waldrop', 'Michael Hiltzik' ,'Yuval Noah Harari', 'Jon Gertner', 'Clayton Christensen', 'Cal Newport', 'Josh Waitzkin', 'Marcus Aurelius', ]
+  let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The 4-Hour Workweek', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations', 'The Lean Startup' ];
+  let bookAuthors = ['Mitchell Waldrop', 'Michael Hiltzik' ,'Yuval Noah Harari', 'Tim Ferriss', 'Jon Gertner', 'Clayton Christensen', 'Cal Newport', 'Josh Waitzkin', 'Marcus Aurelius', 'Eric Ries', ];
+  let ids = ['722412.The_Dream_Machine', '1101290.Dealers_of_Lightning', '23692271-sapiens', '368593.The_4_Hour_Workweek', '11797471-the-idea-factory', '2615.The_Innovator_s_Dilemma', '25744928-deep-work', '857333.The_Art_of_Learning', '30659.Meditations', '10127019-the-lean-startup']
 
   for (let i = 0; i < 10; i++) {
     interests.books.push({
       title: bookTitles[i],
-      author: bookAuthors[i]
+      author: bookAuthors[i],
+      id: ids[i]
     })
   }
 

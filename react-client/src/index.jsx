@@ -34,7 +34,7 @@ class App extends React.Component {
         <Intro />
         <Projects projects={this.state.projects} />
         <Experience experience={this.state.experience} />
-        <Interests />
+        <Interests interests={this.state.interests} />
       </div>
     )
   }
