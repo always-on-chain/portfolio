@@ -55,6 +55,8 @@ const generateExperienceData = () => {
 }
 
 const generateInterestsData = () => {
+  let amountOfBooks = 10;
+  let amountOfPodcasts = 6;
   let interests = {
     books: [],
     podcasts: [],
@@ -64,13 +66,25 @@ const generateInterestsData = () => {
 
   let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The 4-Hour Workweek', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations', 'The Lean Startup' ];
   let bookAuthors = ['Mitchell Waldrop', 'Michael Hiltzik' ,'Yuval Noah Harari', 'Tim Ferriss', 'Jon Gertner', 'Clayton Christensen', 'Cal Newport', 'Josh Waitzkin', 'Marcus Aurelius', 'Eric Ries', ];
-  let ids = ['722412.The_Dream_Machine', '1101290.Dealers_of_Lightning', '23692271-sapiens', '368593.The_4_Hour_Workweek', '11797471-the-idea-factory', '2615.The_Innovator_s_Dilemma', '25744928-deep-work', '857333.The_Art_of_Learning', '30659.Meditations', '10127019-the-lean-startup']
+  let ids = ['722412.The_Dream_Machine', '1101290.Dealers_of_Lightning', '23692271-sapiens', '368593.The_4_Hour_Workweek', '11797471-the-idea-factory', '2615.The_Innovator_s_Dilemma', '25744928-deep-work', '857333.The_Art_of_Learning', '30659.Meditations', '10127019-the-lean-startup'];
 
-  for (let i = 0; i < 10; i++) {
+  let podcastNames = ['The Tim Ferriss Show', 'The Tim Ferris Show', 'The Tim Ferris Show', 'The James Altucher Show', 'The James Altucher Show', 'The James Altucher Show'];
+  let podcastTitles = ['#97 The Evolutionary Angel, Naval Ravikant', 'Episode 2: Josh Waitzkin', '#125: Derek Sivers on Developing Confidence, Finding Happiness, and Saying \"No\" to Millions', '185 - Cal Newport: Become So Good You Can\'t Be Ignored', '329 - Sebastian Maniscalco: How to Create an Authentic Word of Mouth Career', '171 - Ryan Holiday: The Powerful Enemy of Your Success'];
+  let podcastLinks = ['https://tim.blog/2015/08/18/the-evolutionary-angel-naval-ravikant/', 'https://soundcloud.com/tim-ferriss/the-tim-ferriss-show-episode-2-josh-waitzkin', 'https://tim.blog/2015/12/14/derek-sivers-on-developing-confidence-finding-happiness-and-saying-no-to-millions/', 'https://jamesaltucher.com/2016/09/cal-newport-become-so-good-you-cant-be-ignored/', 'https://jamesaltucher.com/2018/03/sebastian-maniscalco-how-to-create-an-authentic-word-of-mouth-career/', 'https://jamesaltucher.com/2016/06/ryan-holiday-the-powerful-enemy-of-your-success/'];
+
+  for (let i = 0; i < amountOfBooks; i++) {
     interests.books.push({
       title: bookTitles[i],
       author: bookAuthors[i],
       id: ids[i]
+    })
+  }
+
+  for (let i = 0; i < amountOfPodcasts; i++) {
+    interests.podcasts.push({
+      name: podcastNames[i],
+      title: podcastTitles[i],
+      link: podcastLinks[i]
     })
   }
 

@@ -167,14 +167,6 @@ body, header {
   font-weight: bold;
 }
 
-#books {
-  padding: 1%;
-  margin-left: 12%;
-  width: 100%;
-  font-weight: 300;  
-  margin-right: 10%;
-}
-
 .book-title, .book-author {
   display: inline;
 }
@@ -186,8 +178,21 @@ body, header {
 }
 
 .interests-header {
-  margin-left: 13%;
+  margin-left: 14%;
   padding-top: 2%;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.interests-item {
+  padding: 0.5%;
+  margin-left: 12%;
+  width: 100%;
+  font-weight: 300;  
+  margin-right: 10%;
+}
+
+.podcast-name, .podcast-title {
+  display: inline;
   font-weight: bold;
 }
