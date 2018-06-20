@@ -55,13 +55,10 @@ const generateExperienceData = () => {
 }
 
 const generateInterestsData = () => {
-  let amountOfBooks = 10;
-  let amountOfPodcasts = 6;
   let interests = {
     books: [],
     podcasts: [],
     articles: [],
-    basketball: []
   }
 
   let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The 4-Hour Workweek', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations', 'The Lean Startup' ];
@@ -71,7 +68,10 @@ const generateInterestsData = () => {
   let podcastNames = ['The Tim Ferriss Show', 'The Tim Ferris Show', 'The Tim Ferris Show', 'The James Altucher Show', 'The James Altucher Show', 'The James Altucher Show'];
   let podcastTitles = ['#97 The Evolutionary Angel, Naval Ravikant', 'Episode 2: Josh Waitzkin', '#125: Derek Sivers on Developing Confidence, Finding Happiness, and Saying \"No\" to Millions', '185 - Cal Newport: Become So Good You Can\'t Be Ignored', '329 - Sebastian Maniscalco: How to Create an Authentic Word of Mouth Career', '171 - Ryan Holiday: The Powerful Enemy of Your Success'];
   let podcastLinks = ['https://tim.blog/2015/08/18/the-evolutionary-angel-naval-ravikant/', 'https://soundcloud.com/tim-ferriss/the-tim-ferriss-show-episode-2-josh-waitzkin', 'https://tim.blog/2015/12/14/derek-sivers-on-developing-confidence-finding-happiness-and-saying-no-to-millions/', 'https://jamesaltucher.com/2016/09/cal-newport-become-so-good-you-cant-be-ignored/', 'https://jamesaltucher.com/2018/03/sebastian-maniscalco-how-to-create-an-authentic-word-of-mouth-career/', 'https://jamesaltucher.com/2016/06/ryan-holiday-the-powerful-enemy-of-your-success/'];
-
+  
+  let amountOfBooks = bookTitles.length;
+  let amountOfPodcasts = podcastNames.length;
+  
   for (let i = 0; i < amountOfBooks; i++) {
     interests.books.push({
       title: bookTitles[i],

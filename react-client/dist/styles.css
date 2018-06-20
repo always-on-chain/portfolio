@@ -196,3 +196,8 @@ body, header {
   display: inline;
   font-weight: bold;
 }
+
+.basketball-info {
+  font-weight: bold;
+  padding: 0.5%;
+}
