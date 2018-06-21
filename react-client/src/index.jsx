@@ -20,6 +20,11 @@ class App extends React.Component {
     }
   }
 
+  //next steps
+  //1. Include react router links for projects
+  //2. Deploy
+  //3. Change display of projects from static to gallery slider
+
   componentWillMount() {
     this.setState({
       projects: generateProjectData(),
