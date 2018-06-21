@@ -5,15 +5,14 @@ const Header = () => {
     <header>
       <a href="#intro" id="link">
         <div id="home-button">
-          <img src="images/W.png" className="W" />ayne 
-          {/* <img src="images/W.png" class="W" />est */}
+          <img src="images/W.png" id="W" />ayne 
         </div>
       </a>
       <div id="menu">
-        <div className="header-tabs">About</div>
-        <div className="header-tabs">Projects</div>
-        <div className="header-tabs">Experience</div>
-        <div className="header-tabs">Interests</div>
+        <a href="#intro" className="header-links">About</a>
+        <a href="#projects-container" className="header-links">Projects</a>
+        <a href="#experience-container" className="header-links">Experience</a>
+        <a href="#interests-container" className="header-links">Interests</a>
       </div>
     </header>
   )

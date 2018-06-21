@@ -29,12 +29,14 @@ body, header {
   font-weight: normal;
 }
 
-.header-tabs {
+.header-links {
+  text-decoration: none;
+  color: black; 
   margin-left: 15%;
   cursor: pointer;
 }
 
-.W {
+#W {
   width: 5%;
   height: 60%;
   margin-bottom: 1%;
@@ -68,7 +70,7 @@ body, header {
 
 .section-container {
   display: flex;
-  margin-bottom: 10%;
+  padding-top: 70px;
 }
 
 .section-headers {
@@ -90,7 +92,7 @@ body, header {
   flex-wrap: wrap;
 }
 
-.project-container {
+.project {
   width: 30%;
   padding: 2%;
   margin-left: 5%;

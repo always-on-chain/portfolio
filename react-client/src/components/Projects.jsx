@@ -7,7 +7,7 @@ const Projects = (props) => {
       <div id="projects" className="align">
         {props.projects.map((project) => {
           return (
-            <div id={project.id} className="project-container">
+            <div id={project.id} className="project">
               <img src={project.image} className="project-image" />
               <div id="project-name">{project.name}</div>
             </div>
