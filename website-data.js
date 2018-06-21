@@ -91,8 +91,26 @@ const generateInterestsData = () => {
   return interests
 }
 
+const generateContactData = () => {
+  let contact = [];
+  let contactTypes = 4;
+
+  let images = ['images/github.png', 'images/linkedin.png', 'images/angelList.png', 'images/email.png'];
+  let urls = ['https://github.com/waynekwest88', 'https://www.linkedin.com/in/wayne-west/', 'https://angel.co/waynekwest88', 'mailto:waynekwest88@gmail.com'];
+
+  for (let i = 0; i < contactTypes; i++) {
+    contact.push({
+      image: images[i],
+      url: urls[i]
+    })
+  }
+
+  return contact;
+}
+
 module.exports = {
   generateProjectData,
   generateExperienceData,
   generateInterestsData,
+  generateContactData
 };

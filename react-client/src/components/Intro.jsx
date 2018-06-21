@@ -12,7 +12,7 @@ const Intro = (props) => {
       </div>
       <div id="intro-email">
         Get in touch at: 
-        <a href="mailto:waynekwest88@gmail.com" target="_blank">waynekwest88@gmail.com</a>
+        <a href="mailto:waynekwest88@gmail.com" target="_blank"> waynekwest88@gmail.com</a>
       </div>
     </div>
   )
