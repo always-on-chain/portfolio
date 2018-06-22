@@ -1,4 +1,5 @@
 import React from 'react';
+// import Carousel from 'react-bootstrap/lib/Carousel';
 
 const Projects = (props) => {
   return (
@@ -8,7 +9,9 @@ const Projects = (props) => {
         {props.projects.map((project) => {
           return (
             <div id={project.id} className="project">
-              <img src={project.image} className="project-image" />
+              <a href={project.url} target="_blank">
+                <img src={project.image} className="project-image" />
+              </a>
               <div id="project-name">{project.name}</div>
             </div>
           )

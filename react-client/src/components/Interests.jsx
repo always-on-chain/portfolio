@@ -26,7 +26,7 @@ const Interests = (props) => {
         <div className="interests-header">Basketball</div>
           <div id="basketball" className="interests-item">
             <div className="basketball-info">Though I live in the Bay, I am a huge LeBron James fan!</div>
-            <div className="basketball-info">I played competively in high school and made the <a href="http://www.hawaiiprepworld.com/boys-basketball/all-state-boys-basketball-1997-2010/" target="_blank">2006</a> Hawaii All State Basketball team</div>
+            <div className="basketball-info">I played competively in high school and made the <a href="http://archives.starbulletin.com/2006/04/02/sports/story05.html" target="_blank">2006</a> Hawaii All State Basketball team</div>
           </div>
       </div>
     </div>

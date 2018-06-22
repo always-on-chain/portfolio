@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
 import { generateProjectData, generateExperienceData, generateInterestsData, generateContactData} from '../../website-data.js';
 import Header from './components/Header.jsx';
 import Intro from './components/Intro.jsx';
@@ -21,9 +20,8 @@ class App extends React.Component {
   }
 
   //next steps
-  //1. Include react router links for projects
-  //2. Deploy
-  //3. Change display of projects from static to gallery slider
+  //1. Deploy
+  //2. Change display to gallery slider - use Carousel from React Bootstrap
 
   componentWillMount() {
     this.setState({

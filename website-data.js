@@ -5,12 +5,14 @@ const generateProjectData = () => {
   let names = ['OpenTable Proxy Server', 'Productivity App: Article-Manager', 'SeaBnB - Backend', 'Blockchain Events Aggregator']
   let ids = ['open-table', 'article-manager', 'backend', 'blockchain'];
   let imagesURL = ['images/open-table.png', 'images/article-manager.png', 'images/backend.png', 'images/blockchain.png'];
+  let projectsURL = ['https://github.com/waynekwest88/Proxy-OpenTable-Restaurant-Page', 'https://github.com/waynekwest88/article-manager', 'https://github.com/waynekwest88/Backend-AirBnb-Reviews', 'https://github.com/waynekwest88/blockchain-events-aggregator']
   let project = {};
 
   for (let i = 0; i < amountOfProjects; i++) {
     project.name = names[i]
     project.id = ids[i];
     project.image = imagesURL[i];
+    project.url = projectsURL[i];
     projects.push(project);
     project = {};
   }

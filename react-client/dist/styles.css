@@ -13,18 +13,20 @@ body, header {
 #link {
   text-decoration: none;
   color: navy;
+  margin-left: 1%;
+  margin-top: 1%;
 }
 
 #home-button {
   font-size: 200%;
-  padding: 1%;
   padding-bottom: 1%;
+  width: 140%;
 }
 
 #menu {
   display: flex;
   padding: 2%;
-  margin-right: 22%;
+  margin-right: 16%;
   font-size: 120%;
   font-weight: normal;
 }

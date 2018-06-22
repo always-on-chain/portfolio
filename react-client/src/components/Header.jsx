@@ -10,7 +10,6 @@ const Header = () => {
           </div>
         </a>
         <div id="menu">
-          <a href="#intro" className="header-links">About</a>
           <a href="#projects-container" className="header-links">Projects</a>
           <a href="#experience-container" className="header-links">Experience</a>
           <a href="#interests-container" className="header-links">Interests</a>
