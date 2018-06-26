@@ -4,10 +4,15 @@ nav {
   background-color: lightskyblue;
   display: flex;
   position: fixed;
+  width: 100%;
 }
 
 body, header {
   font-weight: lighter;
+}
+
+body {
+  margin: 0 auto;
 }
 
 #link {
