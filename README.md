@@ -1,6 +1,7 @@
 # Portfolio
 - My portfolio site highlighting who I am, my previous work experience, and my personal interests and interests in technology 
 - Technologies use: Javascript, React, Webpack, React-Bootstrap, HTML/CSS
+- http://www.waynekwest.com/
 
 # Installation
 - Install dependencies: npm install
