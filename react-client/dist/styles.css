@@ -259,6 +259,7 @@ body {
   }
   .section-headers {
     font-size: 120%;
+    margin-top: 2%;
   }
   .project {
     width: 70%;
@@ -266,6 +267,7 @@ body {
     display: block;
     float: left;
     margin-bottom: 10%;
+    padding-bottom: 2%;
   }
   #article-manager, #blockchain {
     margin-left: 0;
@@ -275,7 +277,8 @@ body {
   }
   .job-container {
     margin-left: 0;
-    padding: 5%;
+    padding: 4%;
+    padding-top: 2%;
   }
   .company-logo {
     width: 20%;
@@ -288,5 +291,16 @@ body {
   }
   .light-weight {
     font-size: 65%;
+  }
+  .interests-header {
+    font-size: 120%;
+    margin-left: 13%;
+    margin-top: 2%; 
+  }
+  .interests-item {
+    font-size: 85%;
+  }
+  #contact-info {
+    margin-left: 18%;
   }
 }
