@@ -261,13 +261,16 @@ body {
     font-size: 120%;
     margin-top: 2%;
   }
+  #open-table, #article-manager {
+    margin-bottom: 10%;
+  }
   .project {
     width: 70%;
     margin: 0;
     display: block;
     float: left;
     margin-bottom: 10%;
-    padding-bottom: 2%;
+    padding-bottom: 0;
   }
   #article-manager, #blockchain {
     margin-left: 0;
