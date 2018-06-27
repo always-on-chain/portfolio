@@ -261,6 +261,7 @@ body {
     font-size: 120%;
     margin-top: 2%;
   }
+
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
@@ -270,7 +271,7 @@ body {
     display: block;
     float: left;
     margin-bottom: 10%;
-    padding-bottom: 0;
+    padding: 0;
   }
   #article-manager, #blockchain {
     margin-left: 0;
