@@ -1,7 +1,6 @@
 
 nav {
   height: 8%;
-  /* background-color: lightskyblue; */
   background: linear-gradient(to right, #87cefa, #79b9e1, #6ca4c8, #5e90af);
   display: flex;
   position: fixed;
@@ -231,4 +230,63 @@ body {
 
 #contact-container {
   padding: 1%;
+}
+
+@media screen and (max-width: 700px) {
+  body {font-size: 14px}
+  nav {
+    font-size: 12px;
+    height: 6%;
+  }
+  #menu {
+    margin-right: 5%;
+  }
+  .header-links {
+    margin-left: 3%;
+    font-size: 90%;
+  }
+  #home-button {
+    font-size: 160%;
+  }
+  #W {
+    width: 10%;
+  }
+  #intro {
+    font-size: 45%;
+  }
+  #avatar {
+    height: 26%;
+  }
+  .section-headers {
+    font-size: 120%;
+  }
+  .project {
+    width: 70%;
+    margin: 0;
+    display: block;
+    float: left;
+    margin-bottom: 10%;
+  }
+  #article-manager, #blockchain {
+    margin-left: 0;
+  }
+  #projects {
+    margin-left: 14%;
+  }
+  .job-container {
+    margin-left: 0;
+    padding: 5%;
+  }
+  .company-logo {
+    width: 20%;
+  }
+  .job-title {
+    font-size: 80%;
+  }
+  .company {
+    font-size: 75%;
+  }
+  .light-weight {
+    font-size: 65%;
+  }
 }
