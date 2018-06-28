@@ -132,9 +132,9 @@ body {
 }
 
 .project-image {
-  height: 25%;
+  /* height: 25%; */
   width: 100%;
-  display: inline-block;
+  display: block;
   border: 1px solid grey;
 }
 
@@ -265,13 +265,13 @@ body {
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
+  
   .project {
     width: 70%;
     margin: 0;
     display: block;
     float: left;
     margin-bottom: 10%;
-    padding: 0;
   }
   #article-manager, #blockchain {
     margin-left: 0;
