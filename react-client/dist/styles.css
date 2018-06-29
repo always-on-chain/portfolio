@@ -6,104 +6,85 @@ nav {
   position: fixed;
   width: 100%;
 }
-
 body, header {
   font-weight: lighter;
   font-family: "Graphik Web", Helvetica
 }
-
 body {
   margin: 0 auto;
 }
-
 #link {
   text-decoration: none;
   color: navy;
   margin-left: 1%;
   margin-top: 1%;
 }
-
 #home-button {
   font-size: 200%;
   padding-bottom: 2%;
   width: 140%;
   color: white;
 }
-
 #menu {
   display: flex;
   padding: 2%;
-  margin-right: 12%;
+  margin-right: 14%;
   font-size: 120%;
   font-weight: normal;
 }
-
 .header-links {
   text-decoration: none;
   color: white; 
   margin-left: 15%;
   cursor: pointer;
 }
-
 #W {
   width: 5%;
   height: 60%;
   margin-bottom: 1%;
 }
-
 #avatar {
   height: 38%;
   width: 30%;
   margin-left: 10%;
 }
-
 #intro {
   padding: 10%;
 }
-
 #intro-statement-avatar {
   margin-top: 8%;
   display: flex;
 }
-
 #intro-statement {
   font-size: 310%;
   width: 65%;
 }
-
 #intro-email {
   font-size: 150%;
   margin-top: 15%;
   width: 100%;
 }
-
 .section-container {
   display: flex;
   padding: 40px 0px;
 }
-
 .section-headers {
   margin-left: 3%;
   color: #79b9e1;
 }
-
 #projects-header {
   width: 100%;
 }
-
 #projects-container, #interests-container {
   background: #f2fafd
 }
-
 #projects {
   padding: 2%;
 }
-
 .align {
   display: flex;
   flex-wrap: wrap;
 }
-
 .project {
   width: 30%;
   padding: 2%;
@@ -113,7 +94,6 @@ body {
   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
   background: white;
 }
-
 .job-container {
   padding: 2%;
   margin-left: 12%;
@@ -122,83 +102,65 @@ body {
   font-weight: 400;
   margin-right: 10%;
 }
-
 #open-table, #article-manager {
   margin-bottom: 6%;
 }
-
 #blockchain, #article-manager {
   margin-left: 14%;
 }
-
 .project-image {
-  /* height: 25%; */
   width: 100%;
   display: block;
   border: 1px solid grey;
 }
-
 #project-name {
   font-weight: 400;
   text-align: center;
   margin-top: 3%;
 }
-
 .company-logo {
   height: 8%;
   width: 8%;
 }
-
 .logo-container {
   display: flex;
 }
-
 .company-logo {
   margin-right: 2%;
 }
-
 .rest {
   flex-wrap: wrap;
 }
-
 .job-title {
   font-weight: 700;
 }
-
 .company {
   font-weight: 500;
 }
-
 .light-weight {
   font-size: 15px;
   font-weight: 400;
 }
-
 .location, .product-description {
   margin-bottom: 2%;
 }
-
 .description-headers {
   font-weight: bold;
 }
-
 .book-title, .book-author {
   display: inline;
 }
-
 .book-title {
   cursor: pointer;
   color: #6ca4c8; 
   font-weight: bold;
 }
-
 .interests-header {
   margin-left: 14%;
   padding-top: 2%;
   font-size: 20px;
   font-weight: bold;
 }
-
 .interests-item {
   padding: 0.5%;
   margin-left: 12%;
@@ -206,31 +168,27 @@ body {
   font-weight: 300;  
   margin-right: 10%;
 }
-
 .podcast-name, .podcast-title {
   display: inline;
   font-weight: bold;
 }
-
 .basketball-info {
   font-weight: bold;
   padding: 0.5%;
 }
-
 #contact-info {
   margin-left: 40%;
   margin-bottom: 5%;
 }
-
 .contact-image {
   height: 50px;
   width: 60px;
   padding-left: 20%;
 }
-
 #contact-container {
   padding: 1%;
 }
+
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
   body {font-size: 14px}
@@ -286,7 +244,7 @@ body {
   }
   .company-logo {
     width: 16%;
-    height: 8%
+    height: 10%
   }
   .job-title {
     font-size: 80%;
@@ -308,9 +266,20 @@ body {
   #contact-info {
     margin-left: 18%;
   }
-
   #contact-type {
     padding-bottom: 5%;
     padding-top: 5%; 
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .section-container {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  #intro {
+    padding-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }

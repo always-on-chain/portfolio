@@ -2,7 +2,7 @@ import React from 'react';
 
 const Intro = (props) => {
   return (
-    <div id="intro">
+    <div id="intro" className="section-container">
       <div id="intro-statement-avatar">
         <div id="intro-statement">
           I'm Wayne West, a full-stack engineer focused on building applications that make
