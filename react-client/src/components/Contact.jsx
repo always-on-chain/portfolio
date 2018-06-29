@@ -7,7 +7,7 @@ const Contact = (props) => {
       {props.contact.map((contactType) => {
         return (
           <div id="contact-type">
-            <a href={contactType.url}  target="_blank">
+            <a href={contactType.url} target="_blank">
               <img src={contactType.image} className="contact-image" />
             </a>
           </div>
