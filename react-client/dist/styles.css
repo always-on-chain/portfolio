@@ -217,10 +217,11 @@ body {
   }
   #avatar {
     height: 48%;
+    margin-left: 5%;
   }
-  #intro-email {
+  /* #intro-email {
     margin-top: 5%;
-  }
+  } */
   .section-headers {
     font-size: 120%;
     margin-top: 2%;
@@ -228,7 +229,6 @@ body {
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
-  
   .project {
     width: 70%;
     margin: 0;
