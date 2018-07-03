@@ -219,9 +219,9 @@ body {
     height: 48%;
     margin-left: 5%;
   }
-  /* #intro-email {
-    margin-top: 5%;
-  } */
+  #intro-email {
+    margin-top: 1%;
+  }
   .section-headers {
     font-size: 120%;
     margin-top: 2%;
