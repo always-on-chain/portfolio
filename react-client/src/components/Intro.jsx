@@ -10,10 +10,10 @@ const Intro = (props) => {
         </div>
         <img src="images/myAvatar.svg" id="avatar" /> 
       </div>
-      <div id="intro-email">
+      {/* <div id="intro-email">
         Get in touch at: 
         <a href="mailto:waynekwest88@gmail.com" target="_blank"> waynekwest88@gmail.com</a>
-      </div>
+      </div> */}
     </div>
   )
 }
