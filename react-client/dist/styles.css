@@ -50,14 +50,15 @@ body {
 }
 #intro {
   padding: 10%;
+  flex-wrap: wrap;
 }
 #intro-statement-avatar {
   margin-top: 8%;
   display: flex;
 }
 #intro-statement {
-  font-size: 310%;
-  width: 65%;
+  font-size: 275%;
+  width: 80%;
 }
 #intro-email {
   font-size: 150%;
