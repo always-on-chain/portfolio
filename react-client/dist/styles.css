@@ -216,13 +216,15 @@ body {
     font-size: 42%;
   }
   #avatar {
-    height: 50%;
+    height: 48%;
+  }
+  #intro-email {
+    margin-top: 5%;
   }
   .section-headers {
     font-size: 120%;
     margin-top: 2%;
   }
-
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
