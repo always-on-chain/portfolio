@@ -5,7 +5,7 @@ const Intro = (props) => {
     <div id="intro" className="section-container">
       <div id="intro-statement-avatar">
         <div id="intro-statement">
-          I'm Wayne West, a full-stack engineer focused on building applications that make
+          I'm Wayne West, a self-taught, full-stack engineer focused on building applications that make
           people happy and more productive
         </div>
         <img src="images/myAvatar.svg" id="avatar" /> 

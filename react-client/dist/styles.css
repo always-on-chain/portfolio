@@ -211,20 +211,23 @@ body {
     width: 10%;
   }
   #intro {
-    font-size: 42%;
+    font-size: 35%;
+    width: 50%;
   }
   #avatar {
     height: 34%;
+    margin-left: 5%;
+  }
+  #intro-email {
+    margin-top: 2%;
   }
   .section-headers {
     font-size: 120%;
     margin-top: 2%;
   }
-
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
-  
   .project {
     width: 70%;
     margin: 0;
