@@ -20,7 +20,8 @@ class App extends React.Component {
   }
 
   //next steps
-  //1. Change display to gallery slider - use Carousel from React Bootstrap
+  //1. Optimize for mobile
+  //2. Change display to gallery slider - use Carousel from React Bootstrap
 
   componentWillMount() {
     this.setState({

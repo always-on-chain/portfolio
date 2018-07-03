@@ -50,15 +50,14 @@ body {
 }
 #intro {
   padding: 10%;
-  flex-wrap: wrap;
 }
 #intro-statement-avatar {
   margin-top: 8%;
   display: flex;
 }
 #intro-statement {
-  font-size: 275%;
-  width: 80%;
+  font-size: 310%;
+  width: 65%;
 }
 #intro-email {
   font-size: 150%;
@@ -192,9 +191,7 @@ body {
 
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
-  body {
-    font-size: 14px;
-  }
+  body {font-size: 14px}
   nav {
     font-size: 12px;
     height: 6%;
@@ -214,26 +211,19 @@ body {
   }
   #intro {
     font-size: 42%;
-    height: 50%;
-  }
-  #intro-statement {
-    font-size: 240%;
-    width: 60%;
   }
   #avatar {
-    height: 40%;
-    margin-left: 5%;
-  }
-  #intro-email {
-    margin-top: 10%;
+    height: 26%;
   }
   .section-headers {
     font-size: 120%;
     margin-top: 2%;
   }
+
   #open-table, #article-manager {
     margin-bottom: 10%;
   }
+  
   .project {
     width: 70%;
     margin: 0;
