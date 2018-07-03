@@ -215,12 +215,16 @@ body {
   #intro {
     font-size: 42%;
   }
+  #intro-statement {
+    font-size: 240%;
+    width: 60%;
+  }
   #avatar {
-    height: 48%;
+    height: 40%;
     margin-left: 5%;
   }
   #intro-email {
-    margin-top: 1%;
+    margin-top: 5%;
   }
   .section-headers {
     font-size: 120%;
