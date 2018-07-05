@@ -216,10 +216,11 @@ body {
   #intro-statement {
     width: 80%;
     font-size: 250%;
+    height: 50%;
   }
   #avatar {
-    margin-left: 20%;
-    height: 36%;
+    margin-left: 18%;
+    height: 32%;
     width: 18%;
   }
   /* #intro-email {
