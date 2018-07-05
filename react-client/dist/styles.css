@@ -214,13 +214,13 @@ body {
     font-size: 36%;
   }
   #intro-statement {
-    width: 60%;
+    width: 54%;
     font-size: 250%;
     height: 1%;
   }
   #avatar {
-    margin-left: 15%;
-    height: 28%;
+    margin-left: 17%;
+    height: 30%;
     width: 17%;
   }
   /* #intro-email {
