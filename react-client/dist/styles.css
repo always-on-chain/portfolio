@@ -44,7 +44,7 @@ body {
   margin-bottom: 1%;
 }
 #avatar {
-  height: 38%;
+  height: 42%;
   width: 30%;
   margin-left: 10%;
 }
@@ -57,12 +57,12 @@ body {
   display: flex;
 }
 #intro-statement {
-  font-size: 310%;
-  width: 65%;
+  font-size: 280%;
+  width: 80%;
 }
 #intro-email {
   font-size: 150%;
-  margin-top: 15%;
+  margin-top: 12%;
   width: 100%;
 }
 .section-container {
@@ -218,10 +218,12 @@ body {
     font-size: 250%;
   }
   #avatar {
-    height: 34%;
+    margin-left: 16%;
+    height: 14%;
+    width: 40%;
   }
   #intro-email {
-    margin-top: 3%;
+    margin-top: 10%;
   }
   .section-headers {
     font-size: 120%;
@@ -287,5 +289,8 @@ body {
     padding-top: 8%;
     margin-left: 8%;
     margin-right: 8%;
+  }
+  #intro-email {
+    margin-top: 12%;
   }
 }
