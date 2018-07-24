@@ -156,6 +156,11 @@ body {
   color: #6ca4c8; 
   font-weight: bold;
 }
+.buttons {
+  margin-left: 5%;
+  margin-top: 2%;
+  height: 3%;
+}
 .interests-header {
   margin-left: 14%;
   padding-top: 2%;
@@ -288,8 +293,8 @@ body {
   }
   #intro {
     padding-top: 8%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #intro-email {
     margin-top: 12%;

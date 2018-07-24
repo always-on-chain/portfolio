@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/lib/Button';
 
 const Interests = (props) => {
   return (
@@ -6,11 +7,12 @@ const Interests = (props) => {
       <h3 className="section-headers">Interests</h3>
       <div className="align">
         <div className="interests-header">Books</div>
-        {props.interests.books.map((book) => {
+        {props.interests.books.map((book, i) => {
           return (
             <div id="books" className="interests-item">
               <div className="book-title"><a href={"https://www.goodreads.com/book/show/" + book.id}  target="_blank">{book.title} </a></div>
               <div className="book-author">by {book.author}</div>
+              {i === props.interests.books.length - 1 ? <div><Button bsStyle="primary" bsSize="xs" className="buttons">See more</Button></div> : ''}
             </div>
           )
         })}
