@@ -7,6 +7,7 @@ import Projects from './components/Projects.jsx';
 import Experience from './components/Experience.jsx';
 import Interests from './components/Interests.jsx';
 import Contact from './components/Contact.jsx';
+import Button from 'react-bootstrap/lib/Button';
 
 class App extends React.Component {
   constructor(props) {
@@ -17,6 +18,8 @@ class App extends React.Component {
       interests: {},
       contact: []
     }
+
+    // this.showMoreInterests = this.showMoreInterests.bind(this);
   }
 
   //next steps
@@ -40,7 +43,7 @@ class App extends React.Component {
         <Intro />
         <Projects projects={this.state.projects} />
         <Experience experience={this.state.experience} />
-        <Interests interests={this.state.interests} />
+        <Interests interests={this.state.interests} showMoreInterests={this.showMoreInterests} showMore={this.state.showMore}/>
         <Contact contact={this.state.contact} />
       </div>
     )
