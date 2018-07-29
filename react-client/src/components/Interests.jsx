@@ -16,17 +16,21 @@ class Interests extends React.Component {
       <div id="books" className="interests-item">
         <div className="book-title"><a href={"https://www.goodreads.com/book/show/" + book.id}  target="_blank">{book.title} </a></div>
         <div className="book-author">by {book.author}</div>
-        {i === bookArray.length - 1 && this.state.showMore ? 
-          <div>
-            <Button bsStyle="primary" 
-                    bsSize="xs" 
-                    className="buttons"
-                    id="buttons-see-more"
-                    onClick={()=>{this.showMoreInterests('books')}}>
-              See more
-            </Button>
-          </div> : ''}
       </div>
+    )
+  }
+
+  button(text) {
+    return (
+      <div>
+        <Button bsStyle="primary" 
+                bsSize="xs" 
+                className="buttons"
+                id='button-show-minimize'
+                onClick={()=>{this.showMoreInterests('books')}}>
+        {text}
+      </Button>
+     </div>
     )
   }
 
@@ -44,7 +48,9 @@ class Interests extends React.Component {
         <div className="align">
           <div className="interests-header">Books</div>
             {initialBooks.map((book, i) => this.bookElement(book, initialBooks, i))}
-            {this.state.showMore ? restOfInterests.map((book, i) => this.bookElement(book ,restOfInterests, i)) : ''}
+            {!this.state.showMore ? this.button('See More') : ''}
+            {this.state.showMore ? restOfInterests.map((book, i) => this.bookElement(book, restOfInterests, i)): ''}
+            {this.state.showMore ? this.button('Minimize') : ''}
 
           <div className="interests-header">Podcasts</div>
             {this.state.interests.podcasts.map((show) => {

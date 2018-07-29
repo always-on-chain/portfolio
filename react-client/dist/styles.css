@@ -156,6 +156,9 @@ body {
   color: #6ca4c8; 
   font-weight: bold;
 }
+#button-show-minimize {
+  margin-left: 150%;
+}
 .buttons {
   margin-left: 5%;
   margin-top: 2%;
@@ -174,6 +177,7 @@ body {
   font-weight: 300;  
   margin-right: 10%;
 }
+
 .podcast-name, .podcast-title {
   display: inline;
   font-weight: bold;
