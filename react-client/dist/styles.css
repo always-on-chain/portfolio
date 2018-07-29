@@ -157,7 +157,7 @@ body {
   font-weight: bold;
 }
 #button-show-minimize {
-  margin-left: 150%;
+  margin-left: 200%;
 }
 .buttons {
   margin-left: 5%;
@@ -177,7 +177,10 @@ body {
   font-weight: 300;  
   margin-right: 10%;
 }
-
+#podcast-header {
+  margin-left: 7%;
+  padding-top: 4%;
+}
 .podcast-name, .podcast-title {
   display: inline;
   font-weight: bold;
@@ -287,6 +290,14 @@ body {
   #contact-type {
     padding-bottom: 5%;
     padding-top: 5%; 
+  }
+  #button-show-minimize {
+    margin-left: 100%;
+  }
+
+  #podcast-header {
+    margin-left: -7%;
+    padding-top: 7%;
   }
 }
 
