@@ -48,8 +48,7 @@ class Interests extends React.Component {
         <div className="align">
           <div className="interests-header">Books</div>
             {initialBooks.map((book, i) => this.bookElement(book, initialBooks, i))}
-            {!this.state.showMore ? this.button('See More') : ''}
-            {this.state.showMore ? restOfInterests.map((book, i) => this.bookElement(book, restOfInterests, i)): ''}
+            {!this.state.showMore ? this.button('See More') : restOfInterests.map((book, i) => this.bookElement(book, restOfInterests, i))}
             {this.state.showMore ? this.button('Minimize') : ''}
 
           <div className="interests-header">Podcasts</div>
