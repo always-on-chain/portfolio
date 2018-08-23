@@ -1,12 +1,12 @@
 
 const generateProjectData = () => {
   let projects = [];
-  let amountOfProjects = 4;
   let names = ['OpenTable Proxy Server', 'Productivity App: Article-Manager', 'SeaBnB - Backend', 'Blockchain Events Aggregator']
   let ids = ['open-table', 'article-manager', 'backend', 'blockchain'];
   let imagesURL = ['images/open-table.png', 'images/article-manager.png', 'images/backend.png', 'images/blockchain.png'];
   let projectsURL = ['https://github.com/waynekwest88/Proxy-OpenTable-Restaurant-Page', 'https://github.com/waynekwest88/article-manager', 'https://github.com/waynekwest88/Backend-AirBnb-Reviews', 'https://github.com/waynekwest88/blockchain-events-aggregator']
   let project = {};
+  let amountOfProjects = ids.length;
 
   for (let i = 0; i < amountOfProjects; i++) {
     project.name = names[i]
@@ -22,21 +22,23 @@ const generateProjectData = () => {
 
 const generateExperienceData = () => {
   let experience = [];
-  let amountOfExperience = 2;
   let job = {};
-  let images = ['images/WKL.jpg', 'images/R3lish.png'];
-  let dates = ['2016-2018', '2013-2016'];
-  let companies = [ 'Wyz Kid Labs', 'R3lish'];
-  let location = ['Palo Alto', 'San Francisco'];
-  let title = ['Marketing and Product Manager - Employee #2', 'Marketing Manager - Founding Team Member'];
+  let images = ['images/Chariot_Logo.png', 'images/WKL.jpg', 'images/R3lish.png'];
+  let dates = ['2018-Current','2016-2018', '2013-2016'];
+  let companies = ['Chariot', 'Wyz Kid Labs', 'R3lish'];
+  let location = ['San Francisco', 'Palo Alto', 'San Francisco'];
+  let title = ['Software Engineer', 'Marketing and Product Manager - Employee #2', 'Marketing Manager - Founding Team Member'];
   let productDescription = [
+    'A transit solution that relieves congestion while offering a comfortable, personalized commuting experience.',
     'A coding platform for kids and a suite of knowledge products made from the proprietary language of the platform',
     'A video as a service (VaaS) tool, automating marketing video creation for businesses',
   ];
   let results = [
+    'Just started',
     'Built a team of 5 to conceptualize, research, and develop 60 apps to boost App Store optimization in less than a year',
     'Validated product architecture with a working proof-of-concept that generated $30,000 in initial company revenue',
   ];
+  let amountOfExperience = results.length;
 
   for (let i = 0; i < amountOfExperience; i++) {
     experience.push(
@@ -95,10 +97,9 @@ const generateInterestsData = () => {
 
 const generateContactData = () => {
   let contact = [];
-  let contactTypes = 4;
-
   let images = ['images/github.png', 'images/linkedin.png', 'images/angelList.png', 'images/email.png'];
   let urls = ['https://github.com/waynekwest88', 'https://www.linkedin.com/in/wayne-west/', 'https://angel.co/waynekwest88', 'mailto:waynekwest88@gmail.com'];
+  let contactTypes = urls.length;
 
   for (let i = 0; i < contactTypes; i++) {
     contact.push({
