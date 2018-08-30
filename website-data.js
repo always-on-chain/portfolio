@@ -65,9 +65,9 @@ const generateInterestsData = () => {
     articles: [],
   }
 
-  let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The 4-Hour Workweek', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations', 'The Lean Startup', 'Making Silicon Valley: Innovation and the Growth of High Tech, 1930-1970', 'The Soul of a New Machine', 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future', 'Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader', 'Mindset: The New Psychology of Success'];
-  let bookAuthors = ['Mitchell Waldrop', 'Michael Hiltzik' ,'Yuval Noah Harari', 'Tim Ferriss', 'Jon Gertner', 'Clayton Christensen', 'Cal Newport', 'Josh Waitzkin', 'Marcus Aurelius', 'Eric Ries', 'Christophe Lécuyer', 'Tracy Kidder', 'Ashlee Vance', 'Brent Schlender and Rick Tetzeli', 'Carol Dweck'];
-  let ids = ['722412.The_Dream_Machine', '1101290.Dealers_of_Lightning', '23692271-sapiens', '368593.The_4_Hour_Workweek', '11797471-the-idea-factory', '2615.The_Innovator_s_Dilemma', '25744928-deep-work', '857333.The_Art_of_Learning', '30659.Meditations', '10127019-the-lean-startup' ,'2004533.Making_Silicon_Valley', '7090.The_Soul_of_a_New_Machine', '25541028-elon-musk', '22318382-becoming-steve-jobs', '40745.Mindset'];
+  let bookTitles = ['The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal', 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age', 'Sapiens: A Brief History of Humankind', 'The 4-Hour Workweek', 'The Idea Factory: Bell Labs and the Great Age of American Innovation', 'The Innovators Dilemma', 'Deep Work', 'The Art of Learning', 'Meditations', 'The Lean Startup', 'Making Silicon Valley: Innovation and the Growth of High Tech, 1930-1970', 'The Soul of a New Machine', 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future', 'Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader', 'Mindset: The New Psychology of Success', 'Invisible Man'];
+  let bookAuthors = ['Mitchell Waldrop', 'Michael Hiltzik' ,'Yuval Noah Harari', 'Tim Ferriss', 'Jon Gertner', 'Clayton Christensen', 'Cal Newport', 'Josh Waitzkin', 'Marcus Aurelius', 'Eric Ries', 'Christophe Lécuyer', 'Tracy Kidder', 'Ashlee Vance', 'Brent Schlender and Rick Tetzeli', 'Carol Dweck', 'Ralph Ellison'];
+  let ids = ['722412.The_Dream_Machine', '1101290.Dealers_of_Lightning', '23692271-sapiens', '368593.The_4_Hour_Workweek', '11797471-the-idea-factory', '2615.The_Innovator_s_Dilemma', '25744928-deep-work', '857333.The_Art_of_Learning', '30659.Meditations', '10127019-the-lean-startup' ,'2004533.Making_Silicon_Valley', '7090.The_Soul_of_a_New_Machine', '25541028-elon-musk', '22318382-becoming-steve-jobs', '40745.Mindset', '16981.Invisible_Man'];
 
   let podcastNames = ['The Tim Ferriss Show', 'The Tim Ferris Show', 'The Tim Ferris Show', 'The James Altucher Show', 'The James Altucher Show', 'The James Altucher Show'];
   let podcastTitles = ['#97 The Evolutionary Angel, Naval Ravikant', 'Episode 2: Josh Waitzkin', '#125: Derek Sivers on Developing Confidence, Finding Happiness, and Saying \"No\" to Millions', '185 - Cal Newport: Become So Good You Can\'t Be Ignored', '329 - Sebastian Maniscalco: How to Create an Authentic Word of Mouth Career', '171 - Ryan Holiday: The Powerful Enemy of Your Success'];
@@ -75,6 +75,8 @@ const generateInterestsData = () => {
   
   let amountOfBooks = bookTitles.length;
   let amountOfPodcasts = podcastNames.length;
+
+  console.log('amount of books', amountOfBooks)
   
   for (let i = 0; i < amountOfBooks; i++) {
     interests.books.push({
