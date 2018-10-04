@@ -119,7 +119,9 @@ const generateInterestsData = () => {
     'The Soul of a New Machine', 
     'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future', 
     'Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader', 
-    'Mindset: The New Psychology of Success', 'Invisible Man'
+    'Mindset: The New Psychology of Success', 
+    'Invisible Man',
+    'Influence: The Psychology of Persuasion',
   ];
   let bookAuthors = [
     'Mitchell Waldrop', 
@@ -137,7 +139,10 @@ const generateInterestsData = () => {
     'Tracy Kidder', 
     'Ashlee Vance', 
     'Brent Schlender and Rick Tetzeli', 
-    'Carol Dweck', 'Ralph Ellison'];
+    'Carol Dweck', 
+    'Ralph Ellison',
+    'Robert B. Cialdini',
+  ]
   let ids = [
     '722412.The_Dream_Machine', 
     '24624075-a-portrait-of-the-artist-as-a-young-man',
@@ -155,7 +160,8 @@ const generateInterestsData = () => {
     '25541028-elon-musk', 
     '22318382-becoming-steve-jobs', 
     '40745.Mindset', 
-    '16981.Invisible_Man'
+    '16981.Invisible_Man',
+    '28815.Influence',
   ];
 
   let podcastNames = [
