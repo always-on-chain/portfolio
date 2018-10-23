@@ -122,6 +122,7 @@ const generateInterestsData = () => {
     'Mindset: The New Psychology of Success', 
     'Invisible Man',
     'Influence: The Psychology of Persuasion',
+    'Mastery',
   ];
   let bookAuthors = [
     'Mitchell Waldrop', 
@@ -142,6 +143,7 @@ const generateInterestsData = () => {
     'Carol Dweck', 
     'Ralph Ellison',
     'Robert B. Cialdini',
+    'Robert Greene',
   ]
   let ids = [
     '722412.The_Dream_Machine', 
@@ -162,6 +164,7 @@ const generateInterestsData = () => {
     '40745.Mindset', 
     '16981.Invisible_Man',
     '28815.Influence',
+    '13589182-mastery',
   ];
 
   let podcastNames = [
