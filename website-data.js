@@ -123,6 +123,7 @@ const generateInterestsData = () => {
     'Invisible Man',
     'Influence: The Psychology of Persuasion',
     'Mastery',
+    'Crime and Punishment',
   ];
   let bookAuthors = [
     'Mitchell Waldrop', 
@@ -144,6 +145,7 @@ const generateInterestsData = () => {
     'Ralph Ellison',
     'Robert B. Cialdini',
     'Robert Greene',
+    'Fyodor Dostoyevsky',
   ]
   let ids = [
     '722412.The_Dream_Machine', 
@@ -165,6 +167,7 @@ const generateInterestsData = () => {
     '16981.Invisible_Man',
     '28815.Influence',
     '13589182-mastery',
+    '7144.Crime_and_Punishment',
   ];
 
   let podcastNames = [
