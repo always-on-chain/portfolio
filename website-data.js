@@ -124,6 +124,7 @@ const generateInterestsData = () => {
     'Influence: The Psychology of Persuasion',
     'Mastery',
     'Crime and Punishment',
+    'Zen and the Art of Motorcycle Maintenance'
   ];
   let bookAuthors = [
     'Mitchell Waldrop', 
@@ -146,6 +147,7 @@ const generateInterestsData = () => {
     'Robert B. Cialdini',
     'Robert Greene',
     'Fyodor Dostoyevsky',
+    'Robert Pirsig'
   ]
   let ids = [
     '722412.The_Dream_Machine', 
@@ -168,6 +170,7 @@ const generateInterestsData = () => {
     '28815.Influence',
     '13589182-mastery',
     '7144.Crime_and_Punishment',
+    '373726.Zen_and_the_Art_of_Motorcycle_Maintenance',
   ];
 
   let podcastNames = [
